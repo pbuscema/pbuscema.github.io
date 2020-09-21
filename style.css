@@ -1,15 +1,12 @@
 
 
 body{
-    background: linear-gradient(-45deg, #f542ef, #9042f5, #f59342, #42f545);
-    width: 100%;
-    height: 100%;
+    background: linear-gradient(to bottom right, #f542ef, #9042f5, #f59342, #42f545);
+    
     font-family: Arial Rounded MT Bold;
 	font-size: 40 px;
 	color: white;
-	
 }
-	
 
 h1{
 	color: white;
