@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to bottom right, #f17011, #F908E8, #734ae7, #600df8);
+  
+      
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 45 px;
+      color: white;
+  }
+  
+  h1{
+      color: white;
+      font-size: 50 px;
+  }
