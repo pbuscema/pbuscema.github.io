@@ -23,7 +23,6 @@ section{
   margin-right: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
-
 }
 .column {
   float: left;
@@ -62,6 +61,12 @@ li{
 }
 h3{
   text-align: center;
+}
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: monospace;
+  font-size: 16px;
 }
 .leftbutton{
   background-color: #C2DBED;
