@@ -3,11 +3,11 @@ body{
     background: linear-gradient(rgb(238, 122, 14), rgb(247, 66, 156), rgb(176, 11, 241), rgb(0, 247, 255), rgb(4, 240, 4));
     
     font-family: Arial Rounded MT Bold;
-	font-size: 40 px;
+	font-size: 50 px;
 	color: white;
 }
 
 h1{
 	color: white;
-	font-size: 50 px;
+	font-size: 70 px;
 }
