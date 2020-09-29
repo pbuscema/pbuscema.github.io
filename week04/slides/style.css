@@ -1,13 +1,21 @@
 body{
-  background-color: #EDC5EA;
+  background-color: #F2C4C4;
 }
+@font-face {
+   font-family: 'Geometrica';
+   src: url(fonts/Geometrica.ttf);
+   font-style: normal;
+   font-weight: 100;
+}
+
 h1{
   text-align: center;
-  font-family: monospace;
+  font-family: Geometrica;
+  font-weight: 100;
 }
 h2{
   text-align: center;
-  font-family: monospace;
+  font-family: Geometrica;
 }
 *{
   box-sizing: border-box;
@@ -47,6 +55,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: solid black;
+  border-width: thin;
 }
 
 ul{
@@ -61,11 +71,18 @@ li{
 }
 h3{
   text-align: center;
+  font-family: monospace;
+}
+h4{
+  text-align: left;
+  font-family: monospace;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 p{
   padding-left: 10px;
   padding-right: 10px;
-  font-family: monospace;
+  font-family: Geometrica;
   font-size: 16px;
 }
 .leftbutton{
@@ -76,7 +93,6 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px;
-  border-color: solid black;
 }
 .rightbutton{
   background-color: #C2DBED;
@@ -86,7 +102,6 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px;
-  border-color: solid black;
 }
 .triangle-left {
 	width: 0;
@@ -105,16 +120,20 @@ p{
 
 .dropbtn {
   background-color: #73f18f;
-  color: white;
+  color: black;
   padding: 16px;
   font-size: 16px;
-  font-family: monospace;
-  border: none;
+  font-family: Geometrica;
+  font-weight: bold;
+  font-size: 20px;
+  border:solid black;
+  border-radius: 2em;
+  border-width: 2px;
 }
 
-.dropdown {
+.dropdown { /* w3schoolS.com */
   position: fixed;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -123,6 +142,7 @@ p{
   background-color: #f6f7c7;
   min-width: 160px;
   font-family: monospace;
+  font-style: oblique;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -139,4 +159,3 @@ p{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color:  #73edf1 ;}
-
