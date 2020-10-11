@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+
+html { 
+background-image: url('http://dl4.glitter-graphics.net/pub/1019/1019634fg66nvlut2.gif');
+background-attachment: fixed;
+background-repeat: repeat;
+  }
+
+/*body{
+    font-family: 'Molle', cursive;
+    height: 100%;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Molle', cursive;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
+.item {
+    margin: 10px;
+}

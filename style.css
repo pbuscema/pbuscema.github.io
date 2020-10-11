@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
 
 body{
-    background: linear-gradient(rgb(238, 122, 14), rgb(247, 66, 156), rgb(176, 11, 241), rgb(0, 247, 255), rgb(4, 240, 4));
-    
-    font-family: Arial Rounded MT Bold;
-	font-size: 50 px;
+    background: linear-gradient(rgb(238, 122, 14), rgb(247, 66, 156), rgb(176, 11, 241), rgb(0, 247, 255), rgb(4, 240, 4)),
+    url('http://dl6.glitter-graphics.net/pub/707/707566g91mlkt7sm.gif');
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-blend-mode: overlay;
+	font-family: Arial Rounded MT Bold; 
+	font-size: 70 px;
 	color: white;
 }
 
 h1{
+	font-family: 'Molle', cursive;
 	color: white;
-	font-size: 70 px;
+	font-size: 100 px;
 }
