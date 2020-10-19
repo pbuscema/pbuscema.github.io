@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body {
+    background-image: url('https://pro2-bar-s3-cdn-cf5.myportfolio.com/6fe7b19504eef40db5ff455c47aac3ae/6f55cbf0-0c19-4459-988d-d71d6f93c16b_rw_1200.gif?h=7cba810333bec199cd0f2b96347f93e9');
+    background-color: deeppink;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-blend-mode: color-dodge;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 100px;
+    color: floralwhite;
+}
+
+audio { 
+    width: 100px; 
+    box-shadow: 5px 5px 20px rgb(16, 18, 133);
+    border-radius: 90px;
+  }
+
+
+.container {
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 15px;
+}
+
+
