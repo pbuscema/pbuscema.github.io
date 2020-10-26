@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 
 body{
     background: linear-gradient(rgb(238, 122, 14), rgb(247, 66, 156), rgb(176, 11, 241), rgb(0, 247, 255), rgb(4, 240, 4)),
@@ -16,3 +18,32 @@ h1{
 	color: white;
 	font-size: 100 px;
 }
+
+.button { /* https://www.w3schools.com/css/css3_buttons.asp */
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #f827cb;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(128, 3, 101);
+  }
+  
+  .button:hover {
+    background-color: rgb(250, 246, 9);
+    font-family: 'VT323', monospace;
+    color: rgb(247, 0, 255);}
+  
+  .button:active {
+    font-family: 'VT323', monospace;
+    color: white;
+    background-color: #09f009;
+    box-shadow: 0 5px rgb(22, 112, 4);
+    transform: translateY(4px);
+  }

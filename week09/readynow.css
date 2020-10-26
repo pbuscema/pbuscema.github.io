@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body {
+    background-image: url("https://media4.giphy.com/media/245otAim3vNmy59B4d/source.gif");
+    background-color: deeppink;
+    background-attachment: fixed;
+    background-repeat: round;
+    background-blend-mode: color;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 100px;
+    color: floralwhite;
+}
+
+audio { 
+    width: 300px; 
+    box-shadow: 5px 5px 20px rgb(16, 18, 133);
+    border-radius: 90px;
+  }
+
+
+.container {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.item {
+    margin: 15px;
+}
+
+.lowercontainer{
+    display: flex;
+    padding: 10px;
+    /*margin: 10px;*/
+    justify-content: center;
+}
+
+
+.button { /* https://www.w3schools.com/css/css3_buttons.asp */
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: floralwhite;
+    background-color: #14e01b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(49, 128, 3);
+  }
+  
+  .button:hover {
+    background-color: rgb(250, 246, 9);
+    font-family: 'VT323', monospace;
+    color: rgb(247, 0, 255);}
+  
+  .button:active {
+    font-family: 'VT323', monospace;
+    color: floralwhite;
+    background-color: #ba09f0;
+    box-shadow: 0 5px rgb(112, 4, 103);
+    transform: translateY(4px);
+  }
+
+  .button2 { /* https://www.w3schools.com/css/css3_buttons.asp */
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: floralwhite;
+    background-color: #08cef1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(5, 107, 148);
+  }
+
+  .button2:hover {
+    background-color: rgb(250, 246, 9);
+    font-family: 'VT323', monospace;
+    color: rgb(247, 0, 255);
+  }
+  
+  .button2:active {
+    font-family: 'VT323', monospace;
+    color: floralwhite;
+    background-color: #ba09f0;
+    box-shadow: 0 5px rgb(112, 4, 103);
+    transform: translateY(4px);
+  }
