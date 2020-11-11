@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+body{
+    background-color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 50px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+  }
+
+/*https://fdossena.com/?p=html5cool/buttons/i.frag*/
+button{
+    display:inline-block;
+    padding:15px 25px;
+    border:0.16em solid red;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    font-weight:500;
+    color: red;
+    background-color: white;
+    text-align:center;
+}
+button:hover{
+    color:#790b0b;
+    border-color: #790b0b;
+}
+/*
+@media all and (max-width:30em){
+    button{
+        display:block;
+        margin:0.4em auto;
+    }
+} 
