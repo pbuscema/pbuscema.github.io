@@ -50,7 +50,7 @@ h3 {
 
   width: 100%;
   height: 100%;
-  padding: 5% 5% 5%;
+  padding: 10% 5% 5%;
   box-sizing: border-box;
 
   backface-visibility: hidden;
@@ -135,7 +135,12 @@ and (orientation : portrait) {
 
 
 body {
-  background: black;
+  background-image: url('https://thumbs.gfycat.com/DisgustingGregariousCassowary-size_restricted.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+
   margin: 0;
   width: 100%;
   height: 100%;
@@ -146,4 +151,76 @@ body {
 
 img{
   text-align: center;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 0.5px; */
+  font-family: 'Cormorant Garamond', serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  /* background-color: white; */
+}
+
+.nav-item{
+  display: flex;
+  align-self:center;
+  order:3;
+  font-family: 'Cormorant Garamond', serif;
+  position: relative;
+  display: inline-block;
+}
+
+/* .nav-item div {
+	display: inline-block;
+} */
+
+.nav-item a {
+	color: #D97855;
+	font-size: 20px;
+	font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  /* padding: 10px; */
+  outline: 50%;
+} 
+.nav-item a:hover, .nav-item a.active {
+  /* color: #ffffff;
+  background-color: #D97855; */
+  position: relative;
+  display: inline-block;
+  
+}
+
+.letters{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#Cover{
+  background: #0511F2;
+  font-weight: bolder;
+  font-size: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: -100px;
+}
+
+#Back_Cover{
+  background: #0511F2;
+  font-weight: bolder;
+  font-size: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: -100px;
 }

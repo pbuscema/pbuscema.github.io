@@ -264,3 +264,18 @@ var aText = new Array(
    }
   }
   typewriter4();
+
+  let theTxt = document.querySelector('h1').textContent = "PAMELA AND LAIBA'S POETRY BOOK";
+
+  // document.querySelector('h1').textContent = "PAMELA AND LAIBA'S POETRY BOOK";
+ 
+  theTxt.addEventListener('mouseover', mouseOver);
+  theTxt.addEventListener('mouseout', mouseOut);
+
+  function mouseOver() {
+    document.querySelector("h1").style.color = "gold";
+  }
+  
+  function mouseOut() {
+    document.querySelector("h1").style.color = "lavender";
+  }

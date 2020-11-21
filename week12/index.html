@@ -15,41 +15,50 @@
   </head>
 
   <body>
+    <nav class="nav-container">
+        <div class="nav-item">
+          <div>
+            <a href="https://github.com/pbuscema/pbuscema.github.io/tree/master/week12" target="_blank" ><img src="images/books1.png"></a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+
+        </div>
+
+        <div class="nav-item">
+
+        </div>
+
+        <div class="nav-item">
+
+        </div>
+
+        <div class="nav-item">
+          <div>
+            <a href="https://github.com/laibasarwar/laibasarwar.github.io/tree/master/week12" target="_blank" ><img src="images/books2.png"></a>
+          </div>
+        </div>
+    </nav>
+
     <div class="scene">
       <article class="book">
       <section class="page active">
-        <div class="front">
-          <h1 class="ml1">
+        <div class="front" id="Cover">
+          <h1 class="ml1" onmouseover="mouseOver()" onmouseout="mouseOut()">
             <span class="text-wrapper">
               <span class="line line1"></span>
-              <span class="letters">Pamela and Laiba's Poetry Book</span>
+              <span class="letters">
+                PAMELA AND LAIBA'S POETRY BOOK
+              </span>
               <span class="line line2"></span>
             </span>
           </h1>
-          
           <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-      <p>
-        Front Cover
-      </p>
-      <p>
-
-      </p>
     </div>
 
-<!--    POEM 1     -->
-    <div class="back">
+    <div class="back" id="Page1">
       <h1>– 1 –</h1>
-      <h1>
-        <img src="images/dream.jpg" img width="500px" img height="750px">
-      </h1>
-    </div>
-
-  </section>
-
-  <section class="page">
-    <div class="front">
-      <h1>– 2 –</h1>
       <h2>
         <strong> A DREAM</strong><br> By Edgar Allan Poe
       </h2>
@@ -59,8 +68,17 @@
       </h3>
     </div>
 
-    <!--    POEM 2     -->
-    <div class="back">
+  </section>
+
+  <section class="page">
+    <div class="front" id="Page2">
+      <h1>– 2 –</h1>
+      <h1>
+        <img src="images/dream.jpg" img width="500px" img height="500px">
+      </h1>
+      
+    </div>
+    <div class="back" id="Page3">
       <h1>– 3 –</h1>
       <h2>
         <strong>WITH A FLOWER</strong><br>By Emily Dickinson</h2>
@@ -71,59 +89,56 @@
   </section>
 
     <section class="page">
-    <div class="front">
+    <div class="front" id="Page4">
       <h1>– 4 –</h1>
       <h1>
-        <img src="images/garden.jpg" img width="400px" img height="750px">
+        <img src="images/garden.jpg" img width="500px" img height="500px">
       </h1>
     </div>
-
-    <!--    POEM 3    -->
-    <div class="back">
+    <div class="back" id="Page5">
       <h1>– 5 –</h1>
       <h2>
         You're getting older, and there are such few boys.
       </h2>
-      <h3>
+      <p>
         <div id="typedtext1"></div>
-      </h3>
+      </p>
     </div>
   </section>
     <section class="page">
-    <div class="front">
+    <div class="front" id="Page6">
       <h1>– 6 –</h1>
       <h1>
-        <img src="images/greenwhich_village-2.jpg">
+        <img src="images/greenwhich_village-2.jpg" img width="500px" img height="500px">
       </h1>
       
     </div>
-
-    <!--    POEM 4     -->
-    <div class="back">
+    <div class="back" id="Page7">
       <h1>– 7 –</h1>
       <h2>
         Aleppo
       </h2>
-      <h3>
+      <p>
         <div id="typedtext2"></div>
-      </h3>
+      </p>
     </div>
   </section>
     <section class="page">
-    <div class="front">
+    <div class="front" id="Page8">
       <h1>– 8 –</h1>
       <h1>
-        <img src="images/middle_east-2.jpg">
+        <img src="images/middle_east-2.jpg" img width="500px" img height="500px">
       </h1>
     </div>
-    <div class="back">
-      <h1>– 9 –</h1>
-      <p>
-        Back Cover
-      </p>
-      <p>
-        
-      </p>
+    <div class="back" id="Back_Cover">
+      <h1 class="ml1">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">The End!</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </div>
   </section>
 
