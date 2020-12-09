@@ -1,5 +1,5 @@
 var song;
-/*var slider;*/
+//var slider;
 var button;
 var amp;
 var fft;

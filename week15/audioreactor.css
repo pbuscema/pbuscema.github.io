@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
 body{
     background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-size: 50px;
 }
+h1{
+    font-family: 'Monoton', cursive;
+    color: cyan;
+    font-size: 80px;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:hotpink;
+    text-decoration: none;
+}
+
+/* navbar https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color:black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .active{
+      background: hotpink;
+      color: black;
+  }
+  .navbar a:hover {
+    background:black;
+    color: cyan;
+  }
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
